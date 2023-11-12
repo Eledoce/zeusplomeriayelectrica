@@ -6,6 +6,7 @@ import { BsTelephoneFill } from 'react-icons/bs'
 import { HiMail } from 'react-icons/hi'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import logoLegacy from './assets/logoLegacy.jpg'
+
 export default function App() {
   return (
     <div className="h-screen max-w-screen relative">
@@ -20,7 +21,7 @@ export default function App() {
         </p>
         <p className="inline-flex items-center gap-2 text-center">
           <FaMapMarkerAlt />
-          Carretera Cuautla-Cuernavaca km41 col. polvorin, Cuautla, Morelos
+          Carretera Cuautla-Cuernavaca km41 col. polvorín, Cuautla, Morelos
         </p>
       </div>
       <Flotante />
@@ -45,25 +46,28 @@ export default function App() {
 
         <Marcas />
       </main>
+
       <Opiniones />
 
-      <h4 className="text-3xl font-Montserrat font-medium text-center m-5">
-        Ubicación
-      </h4>
-      <div className="flex flex-col xl:flex-row gap-2 justify-center items-center mb-10">
-        <p className="text-xl font-Montserrat text-center w-5/6 xl:w-1/3 xl:px-10">
-          Estamos ubicados en la carretera Cuautla-Cuernavaca km41 col. polvorin
-          Cuautla, Morelos
-        </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15102.414901105729!2d-98.96221692648929!3d18.860279767587198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce6f07bb159ff3%3A0x9505194f51a6672e!2s%EF%B8%8FPlomeria%20y%20Electrica%20Zeus!5e0!3m2!1ses-419!2smx!4v1699728650166!5m2!1ses-419!2smx"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className="w-full xl:w-2/3 xl:px-20 h-96"
-        ></iframe>
-      </div>
-      <footer className="p-1 text-center text-gray-600 bg-gray-100">
-        Copyryght &copy; 2023 Plomería y Electrica Zeus | Todos los derechos
+      <section className="bg-gray-100 py-5 shadow-inner">
+        <h4 className="text-3xl font-Montserrat font-medium text-center m-5">
+          Ubicación
+        </h4>
+        <div className="flex flex-col xl:flex-row gap-2 justify-center items-center mb-10">
+          <p className="text-xl font-Montserrat text-center w-5/6 xl:w-1/3 xl:px-10">
+            Estamos ubicados en la carretera Cuautla-Cuernavaca km41 col.
+            polvorin Cuautla, Morelos
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15102.414901105729!2d-98.96221692648929!3d18.860279767587198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce6f07bb159ff3%3A0x9505194f51a6672e!2s%EF%B8%8FPlomeria%20y%20Electrica%20Zeus!5e0!3m2!1ses-419!2smx!4v1699728650166!5m2!1ses-419!2smx"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="w-full xl:w-2/3 xl:px-20 h-96"
+          ></iframe>
+        </div>
+      </section>
+      <footer className="p-1 text-center text-gray-100 bg-stone-800 font-Montserrat">
+        Copyryght &copy; 2023 Plomería y Eléctrica Zeus | Todos los derechos
         reservados
       </footer>
     </div>

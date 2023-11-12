@@ -11,10 +11,10 @@ export default function Portada() {
           className="w-1/6  my-1 xl:mb-5 hover:scale-105 transition-all"
         />
         <h1 className="text-2xl xl:text-7xl uppercase text-center top-0 text-white font-Staat hover:scale-105 transition-all">
-          Plomeria y electrica Zeus
+          Plomería y eléctrica Zeus
         </h1>
         <h2 className="text-xs xl:text-2xl uppercase text-center text-gray-300 top-0 hover:scale-105 transition-all font-Montserrat">
-          material de plomeria y electricidad
+          material de plomería y electricidad
         </h2>
       </div>
     </div>
