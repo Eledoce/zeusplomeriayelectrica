@@ -32,7 +32,7 @@ export default function Flotante() {
 const A = ({ children, className, href, target }) => {
   return (
     <a
-      className={`bg-green-500 w-16 h-16 p-2 rounded-full flex justify-center items-center hover:scale-110 active:scale-95 transition-all ${className}`}
+      className={`bg-green-500 w-16 h-16 p-2 rounded-full flex justify-center items-center hover:scale-110 active:scale-95 transition-all shadow-xl shadow-black/50 hover:shadow-black ${className}`}
       href={href}
       target={target ? target : ''}
     >

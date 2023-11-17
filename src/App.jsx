@@ -27,11 +27,12 @@ export default function App() {
       <Flotante />
 
       <main>
-        <div className="py-10 xl:px-20 flex flex-col xl:flex-row gap-5 justify-center items-center font-Montserrat">
+        <div className="py-10 md:px-20 flex flex-col md:flex-row gap-5 justify-center items-center font-Montserrat">
           <p className="text-lg w-5/6 xl:w-1/2 text-justify">
             Somos una tienda de plomería y electricidad estamos en una excelente
             ubicación contamos con estacionamiento y estamos listos para
             ayudarte con los materiales que necesitas para tu casa o negocio.{' '}
+            <br />
             <br />
             Recuerda que también contamos con{' '}
             <strong>entregas a domicilio.</strong> No lo pienses más y danos la
@@ -40,7 +41,7 @@ export default function App() {
           <img
             src={logoLegacy}
             alt="Logo"
-            className="w-5/6 xl:w-1/5 rounded-xl shadow-xl"
+            className="w-5/6 md:w-1/5  rounded-xl shadow-xl"
           />
         </div>
 
@@ -49,7 +50,7 @@ export default function App() {
 
       <Opiniones />
 
-      <section className="bg-gray-100 py-5 shadow-inner">
+      <section className="">
         <h4 className="text-3xl font-Montserrat font-medium text-center m-5">
           Ubicación
         </h4>
