@@ -21,7 +21,7 @@ export default function App() {
         </p>
         <p className="inline-flex items-center gap-2 text-center">
           <FaMapMarkerAlt />
-          Carretera Cuautla-Cuernavaca km41 col. polvorín, Cuautla, Morelos
+          Cuernavaca-Cuautla 77, Revolución, 62748 Cuautla, Mor.
         </p>
       </div>
       <Flotante />
@@ -56,11 +56,11 @@ export default function App() {
         </h4>
         <div className="flex flex-col xl:flex-row gap-2 justify-center items-center mb-10">
           <p className="text-xl font-Montserrat text-center w-5/6 xl:w-1/3 xl:px-10">
-            Estamos ubicados en la carretera Cuautla-Cuernavaca km41 col.
-            polvorin Cuautla, Morelos
+            Estamos ubicados en Cuernavaca-Cuautla 77, Revolución, 62748
+            Cuautla, Mor.
           </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15102.414901105729!2d-98.96221692648929!3d18.860279767587198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce6f07bb159ff3%3A0x9505194f51a6672e!2s%EF%B8%8FPlomeria%20y%20Electrica%20Zeus!5e0!3m2!1ses-419!2smx!4v1699728650166!5m2!1ses-419!2smx"
+            src="https://www.google.com/maps?q=Cuernavaca-Cuautla+77,+Revoluci%C3%B3n,+62748+Cuautla,+Mor.&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full xl:w-2/3 xl:px-20 h-96"

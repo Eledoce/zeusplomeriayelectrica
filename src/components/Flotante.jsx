@@ -17,7 +17,7 @@ export default function Flotante() {
       </A>
       <A
         className="bg-orange-600"
-        href="https://www.google.com/maps/dir//%EF%B8%8FPlomeria+y+Electrica+Zeus+carretera+cuautla+cuernavaca+km+41+%235+col+Polvor%C3%ADn+62757+Cuautla,+Mor./@18.8644674,-98.9616834,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x85ce6f07bb159ff3:0x9505194f51a6672e"
+        href="https://www.google.com/maps/dir/?api=1&destination=Cuernavaca-Cuautla+77,+Revoluci%C3%B3n,+62748+Cuautla,+Mor."
         target="_blank"
       >
         <FaMapMarkerAlt className="text-3xl text-white p-1 h-full w-full" />
